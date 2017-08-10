@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+  <html>
+    <title>Pet Profiles</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon"
+             type="image/jpg"
+             href="petbookslogo.jpg" />
+      <style>
+        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+      </style>
+      <body class="w3-light-grey">
+        <div class="w3-top w3-animate-top"> <!-- This is the top section of the website -->
+          <div class="w3-bar w3-blue w3-card-2 w3-left-align w3-large"> <!-- bar: shape of menu tab, blue: color of menu tab, card-2: shadow, left-align: all elements on the left side, large: font size-->
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-orange w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="petbookstemp.html" class="w3-bar-item w3-button w3-padding-large w3-hover-orange">Home</a>
+            <a href="petabout.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">About us</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+             <button class="w3-padding-large w3-button w3-hover-orange" title="More">Profiles  <i class="fa fa-caret-down"></i></button>
+             <div class="w3-dropdown-content w3-bar-block w3-card-4">
+               <a href="petprofiles.html" class="w3-bar-item w3-button w3-hover-orange w3-blue">Template</a>
+               <a href="profiledemos.html" class="w3-bar-item w3-button w3-hover-orange">Demo</a>
+             </div>
+           </div>
+            <a href="localshelters.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">Local Shelters</a>
+          </div>
+
+          <!-- Navbar on small screens -->
+         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Profiles</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Local Shelters</a>
+          </div>
+        </div>
+
+      <!-- Page Container -->
+      <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+
+          <!-- Left Column -->
+          <div class="w3-third">
+
+            <div class="w3-white w3-text-orange w3-card-4 w3-margin-top">
+              <div class="w3-display-container">
+                <img class="w3-margin-top" src="pet_silhouette.jpg" style="width:44%" alt="Avatar">
+                <div class="w3-display-bottomleft w3-container w3-text-orange">
+                   <h2><i class="fa fa-bookmark-o aria-hidden='true' w3-margin-right"></i>Name of Animal</h2>
+                </div>
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-large"><b><i class="fa fa-paw aria-hidden='true' w3-margin-right w3-text-blue"></i>ADOPT!</b></h5>
+                <hr>
+                <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Owner</p>
+                <p><i class="fa fa-address-card aria-hidden='true' w3-margin-right w3-large w3-text-blue"></i>Address</p>
+                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>ex@mail.com</p>
+                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>1224435534</p>
+
+
+                <div class="w3-light-grey w3-round-xlarge w3-small"></div>
+
+                <div class="w3-light-grey w3-round-xlarge w3-small"></div>
+                <br>
+                <div class="w3-light-grey w3-round-xlarge"></div>
+
+                <div class="w3-light-grey w3-round-xlarge"></div>
+
+                <div class="w3-light-grey w3-round-xlarge"></div>
+                <br>
+              </div>
+            </div><br>
+
+            <!-- Posts -->
+                <div class="w3-card-2 w3-margin">
+                  <div class="w3-container w3-padding w3-blue">
+                    <h4>Popular Posts</h4>
+                  </div>
+                  <ul class="w3-ul w3-hoverable w3-white">
+                    <li class="w3-padding-16">
+                      <img src="sittingbunny.jpg" alt="bunny" class="w3-left w3-margin-right" style="width:50px">
+                      <span class="w3-large w3-text-orange">(*Name of animal*)</span><br>
+                      <span class="w3-text-orange">(*Name of shelter*)</span>
+                    </li>
+                    <li class="w3-padding-16">
+                      <img src="sittingDog.jpg" alt="dog" class="w3-left w3-margin-right" style="width:60px">
+                      <span class="w3-large w3-text-orange">(*Name of animal*)</span><br>
+                      <span class="w3-text-orange">(*Name of shelter*)</span>
+                    </li>
+                    <li class="w3-padding-16">
+                      <img src="sittingGP.jpg" alt="guinea pig" class="w3-left w3-margin-right" style="width:50px">
+                      <span class="w3-large w3-text-orange">(*Name of animal*)</span><br>
+                      <span class="w3-text-orange">(*Name of shelter*)</span>
+                    </li>
+                    <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+                      <img src="sittingCat.jpg" alt="cat" class="w3-left w3-margin-right" style="width:40px">
+                      <span class="w3-large w3-text-orange">(*Name of animal*)</span><br>
+                      <span class="w3-text-orange">(*Name of shelter*)</span>
+                    </li>
+                  </ul>
+                </div>
+                <hr>
+
+          <!--End Left Column-->
+        </div>
+
+          <!-- Right Column -->
+          <div class="w3-twothird">
+
+            <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-top">
+              <h2 class="w3-text-blue w3-padding-16">   <img class="icon icons8-Dog" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADQUlEQVRoQ+2Zi1EUQRCGfyJQIxAiQCNQI1AiECJQIlAjUCNQIlAjUCMAI0Az0Ai0Pmr6qm9q3scxe5RdRXFVO7vT3/Zzevd0S2RvMsd52P+JpN+b6DIb5G9Q/kLSRjAzQR5L+uqssBHMEkB+BJhDScMwM0FeS3ol6b0kfn+TBIyXn5I+SjqTxO+sLAHkTQC5m4Ex5T8HqC8pmpkgWOCRpCNJKJmSZ5KOJT11F5NWWgII2QqokuwHIKDuu4UrK80EsdR7L1NDLIbM9Uz/lJUulgCS08FAAUitwUrAPpf0axaI1RBS74OMT+Us4pdTh3jW6WyQ70GRke4Ei1xK+iNp30DeSnoZfPWdJPxym+JrCPuOCPUFt6LGHAOC4i+iJ7HoZOTpjfe0uE3pUdQcrMH/A4olIAQV5sHXEFLhnVB8tgXTUkNKIFgRL1q5poHQQpPP6XUIvm3DGEithtDm55IBoKtiCoj5Wg6m0VuGlvFm6bVy4lNwvGYt4wHie5wZMLQcxAxBG4uBVLOrLcjBDL3mxptoNwCwliMF1A3C3sCQwUhpWIbW4SakBDQEYko333zNlCkgih7S7Fpep1kgpkMMtLMgHujDLltkyDtSvjfbtf6DDBeha85a8eM4CX7i0ESbXttrya7FeZyhQ3zUTTItFcQOTSh91abvqkXsvMIMCxerSo9Fai11dbPMAo4OD6NrHJqwSmnmtXZLD0ippR6FsPtiPbpLwAhIfA/+Swd7GprOHqicwjcCEgefpUk6Zq71fLCZCnI1tYheux1dOe31TEWmgsAQn7V9uiRwCeAWmQ6SyjSWMrEOoC0yFYSWgeBmVMTgwoQTJoHPKCm+loOaCoKSnBNSwU3s5K6lYKaCkH5LwW3XWnqk6SAMzewbeRzc/mttrU+aDoKb2Mw4FdxrA+ZC1C8CxAd33BOZxVLZzXNtFYQgJvN4t7A6ER9yLLjJVriYVXUDqX3/6NmrmM5TvZa5BS5DhuLNM/nG91NVnbduH/uxDMLJDphawPfulYXJfZtDOaziBWugXNxL+em9X8+QGfhS74Wle/bqAmGxfWikIWQj/qjcOaX8eu7nTZfWe4V690rCVEeRLX3GEtbcGpB/99oRcYIKtyQAAAAASUVORK5CYII=">  </i>Info</h2>
+                <div class="w3-container">
+                <h5 class="w3-bold w3-text-orange"><b>AGE: X years old</b></h5>
+                <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6> -->
+                <h5 class="w3-bold w3-text-orange"><b>BREED: XX</b></h5>
+                <hr>
+              </div>
+              <div class="w3-container">
+
+                <!-- <h5 class="w3-bold w3-xlarge w3-text-blue"><b>Bio</b></h5> -->
+                <h5 class="w3-bold w3-xlarge w3-text-blue"><img class="icon icons8-Cat" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAFX0lEQVRoQ93Zj7EtQxAG8H4RIAJEgAgQASJABIgAESACXgSIABEgAkSACKhf1X7Mmze7O7PnHpSpOnXP3jMz3V//795H9T9Zj27E8XZV/VJV3954j+PPVtUbVfVjVf2wet8tQL6pqtc2gl9V1btV9dsqA9t+93xeVS9sz6+vCucqEIQB+Wxj/sNNisCsSvOdDQTNvl9Vn1bVH1X14opQrgKhAWBIkBZ89z8MvFJVP08yERBfV5Xv7gLmk+2eaaFcBfJrVYV4eH65qr7fTIJpnK3s5xO+ZxHOT1X1cVV9dHZJfr8CJAx8sJlBSyvS/GLTCqZi99knMETyzzVabe+hUZ/44CmeK0DerKovq6p3SH7CPHrGMUHq1ksdR29tJtkzCuzzK35yBQh1Y5oztr5Ayp4xkc9eFIsp7flAaEzzN72xEdkykVO7+HsDk3xmy03vVdU0f9Mb/yEgiWIhx4emctN/DQgALZjpxLgKRBkhNP6+49QLVnS4NWAkXJHwdK0CEa1ELUlvOlmdcjHeIMGqvaa0sgIkiWokJVFIJPMXQMnsDKj9hGJh2pl2oecOETD7dmWyAkQNJJL0YTfm5i6EgTkrVRL52vwyEtAezacArQBRlnw3kE6YirnNlBiAKnEiaWFXS9Dzk+J0VEU8AWYWyBFzHJNDtvUSU2ESJDpaEqcz9lkYttffPtx6PjWvWSB7ZclFP146NlWuzAK5ms1pSeTJogkmNZXktkNTtO8JhDkq6wWDdrW+MaOafx1Iyn2OrHMMsFHAOAIUIIf55J4awVyiEccWFIRuDn2WY1pgfVQcgl4F0ueQGdPAdPoQmgFuZSWXHPI6CyTx/IgRUxBm0zOauomj9wMF/uPc450GC2B+hs82vN+UEDFyNN2I5Ekw+UHYZlaKTH2GPX53FxDMBoN7neKDJ0QSSD++l2UxRhttuHUuzg0UEABlAejekbm5z8iJFjOt2TXJWdNyQWzV9yMTawcOGSK0DLQDhb0JZUDQlpwjYh0GiFkgCaVyAEY5LynSzkpym3HyduqokORjD1aixGEjGbatEgaCpjjr7FBuDwyTZGaAMDk0+VqGgX1ifeKeWY20kYdjUjOCAL263ZjegfSU52fAaJlm3cN/MAoAwfgQkokjcL7zlV3tzwJp21vOipBGyMUYAhQzZlHtAq4nbv+obIn0M4LNUFuwIKzDyeMMkGiDgyMGhN4BwXR2kT4GMUrK+Q4YRgyp7XMuAKNFe/JaAT3n7Y9/nFbAM0BGNooQlSfUYjA9yMis5J+RRAEM8IAHIOYV7UaYu7OCGSCjgXUIiGAxq34c2oZWTLahuJ8J8w2CEAlHIZm28LFrXmdAjgbWffRpzSqMOt8mQGdiYhjOiPUsMDh3ONg+A9KG3dXXa2mPhWb3AJWZ8OlUZBCjaYwpmj4u11opoadHlw2F1EltHwHI6FXDTKI8bLDONLI33ZghHI2ksaIRtdNqYxVaqfWGDdYZkJjT9AuXDmFbn/mJU682VrlypOG/yN0bCEL8Ib1EMvaMRvs9hz3RGRAhT164qpErDO+dORz8nQHJRJCdixiqXYu9pjHyzBFTQOZZ1k6DpdxQOefZMFxly3TTJbpbiMWw/SqJPKu5PO/mkhkgGS4bOmd/7zv9MwFw6miyz+ztc0wmya73hfZZsBgmxRUg0QKJkyxJhtG8qU1+SKKTP6xoK6+bAUmnmaSbZm0PiPJE/34TEE6K8WTgvLk9esZ8Kl/MpmAEbPTcdoDAtAk4ryv2arbTl42IK+H1IA/dCa4GgsyfL2kkSWiV6L3255XfU0I985GYwZXa6KHBpFUYWsYMkIdm6C73/Ql6ypBCQgylSwAAAABJRU5ErkJggg=="><b> Bio</b></h5>
+            <!--  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6> -->
+              <!--  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6> -->
+                <p class="w3-text-orange">(* Bio of what the animal is like, what their tendencies are, what type of things they like to do, etc.*)</p>
+                <hr>
+              </div>
+              <div class="w3-container">
+                <!-- <h5 class="w3-bold w3-xlarge w3-text-blue"><b>Location</b></h5> -->
+                <h5 class="w3-bold w3-xlarge w3-text-blue"><!-- User Location icon by Icons8 -->
+               <img class="icon icons8-User-Location" width='50' height='50' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAFTUlEQVRoQ73agbFsQxAG4HkRIAJEgAgQASJABIgAESACXgSIABEgAkSACKjv1fy3+s6bPTvn7Nk3VVu7dc7MdP/df/d0z71P2vnjvdbaO621N1trL/dvUn5rrf3Tv39orf1ypugnJ21G4c9bax915W0bRQHw/rX+/UaXCdTXrbVvOsCbVDkDCACfdiV/bK2xtg9FZwOo9zvot/u8Lzqgw2BuAUKhb7tSrE+Zn3dqgoLWAfRda+2zo945CgSInzr/CUeR2RAnL7XWfr+ioPWf9Ph59wiYI0AqiA86jSoItPmweyrPv+yW/7t7DfWeDsjFFw/zKjC7xgiEgLhZEP452Y0wQj/udMgU1v+qZ6x/O0CB7hPKsby1vDTzpFizB5rZfxwSBs/ZA50Z7dkYgVAGZ6VQYxSG0ygFJKEZNgTQfpS1x9YwHziK+TBgBhA8yis15gLSPEmFDEaaAslzm0fYw+TW2h9dWYCTlfz+tccBS9X5V/A8A83Cb5V1qIsJ9qwUI4chgX6OKXtiJByulCIUOFSq4ABgDKnZt0G4WKlKWA84qgGTd6xt7eiVi4bZA4QlWITwkQbVot4Bjevm5mDMmYGu6JMRjwp+6zL+6wmhPrsZCIVknCqMpXljVMBztPirKxaqURiAVwfrUy5x8XrxShLPK9f46f2qRxLkNd0m+EZvhBbjc/Ji/aTj0Ss1uYTKS/RaBTJTjsUolhiIUjJNCsaZMVM4Mk4d4oP3klJjvGUg0ulsUxuMwVeBJzWOay89r0D9vrYu1K3e84y+zxmPYqw9A4I6SbHxSAUiGOXzh0Opa3qN22Lt0WHW1zGAhDDKqEDEqpQ9BbISSzMg6S9GIyR2auBGRqw8O9UBqf2LNYw1xtNU370xIoPESwQn/9fNoyzPSA51fN89OAMp0zmPYpjEyFZR+rD3KhD0oUTNWvFSVco850dcL60qZ4zUSH6LPQqmNJnFw12yVs6RWmONqTSCnR9Aek/5OqxHSe+dJ6kSZlkxZ8uSsZcmdU1SSvBAzUBaV9ZVNCaIax2WZMD6ORwZBjWtBYYX9Sw13i4lheUYIUT1KWgFWsqJBHHN6/GKzXlirLe2EknqLJ4x6gE6q+s8U3/JWqqJR6306JG4OIqxZrUibrNkTbkByOKse6lXH0HVVnkMaGcFYLWuYyQyAvxRNpsBEXi8MOu/w9tLZQnQlLrWu6MQOlFuTK/JVpfSrve8w6gPfc+eGGFRICk79gre2ZzbpeTcpOB9LRrFBG/6SLW8WSth+8QbZK16d7lorLTY6hVQwfu0s7MYAYDy5o2KJjaWDsG6+V6PWJsgderWDDYqXW8bvaM0yl3qIGuTNpYgW0nj2bsjQKzLAbnbchsape1dqnbHfY4CsY84cEkx6zuuWnCYkAAfm7TlfW4BksDXJQJzdKCU5KGO2xXgt8ZIXZ8z5BaKhVKzy75l49zikQhJH3GEYqHUrK9ZBnFLsFchW2fLNWXQ8iZKRcAZHrFXKLbUO3ThOY9uotTZQOyXarZetF3ySIrNmyl1DyBbneEI6FAZssXTs6gVGStXnSlD9tDwWqwdPtkvbXytfEkZkt7lqoKrE872CLmzpmiPx1Z1fzTvHkAI0CuMRWW8Mba0hxQfF90LyMwrK/FzGNS9gMQrLhBShzn8xMZ4oXdY+TNrrS0l6m291OxebPy74ykgzipRtjIYj7jLyj8J1MuE00DcG4j99Sz6dACc4kt/fTqC8J4xUmswv+9GqxfhkXqBVy/Ajxh9c829PUK488TNyd3i40V4hAy3Jg7I8Q9Cp3rlRXgknli+bDuC8H/yv22B6sgmqQAAAABJRU5ErkJggg=="><b> Location</b></h5>
+
+                <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6> -->
+                <p class="w3-text-orange">(*Name of animal*) is at the (*Name of shelter*) Shelter. </p><br>
+              </div>
+            </div>
+
+            <div class="w3-container w3-card-2 w3-white">
+            <div class="w3-content w3-container w3-padding-64" id="portfolio">
+              <h2 class="w3-left-algin w3-text-blue">Photos</h2>
+           <p class="w3-center w3-text-orange"><em>Here are where photos of the pet will go.</em></p>
+
+              <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+              <div class="w3-row-padding w3-center">
+                <div class="w3-col m6">
+                  <img src="profile1.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dogs playing">
+                </div>
+
+                <div class="w3-col m6">
+                  <img src="profile2.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dogs playing">
+                </div>
+              </div>
+
+              <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m6">
+                  <img src="profile3.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dogs sitting">
+                </div>
+
+                <div class="w3-col m6">
+                  <img src="profile4.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dog looking up">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End Right Column -->
+          </div>
+
+        <!-- End Grid -->
+        </div>
+
+        <!-- End Page Container -->
+      </div>
+
+      <footer class="w3-container w3-blue w3-center w3-margin-top">
+        <!-- <p>Find us on social media.</p>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i> -->
+       <p>Made By Girls at <a href="https://girlswhocode.com/" target="_blank"> Girls Who Code.</a></p>
+      </footer>
+      <a href="https://icons8.com">Icon pack by Icons8</a>
+    </body>
+  </html>

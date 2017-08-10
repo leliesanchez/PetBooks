@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+  <html>
+      <title>Local Shelters</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="icon"
+          type="image/jpg"
+          href="petbookslogo.jpg" />
+      <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+      body, html {
+          height: 100%;
+          line-height: 1.8;
+          padding: 0px 0px 0px 0px   }
+    </style>
+    <body>
+      <!-- Navbar -->
+      <div class="w3-top"> <!-- This is the top section of the website -->
+        <div class="w3-bar w3-blue w3-card-2 w3-left-align w3-large"> <!-- bar: shape of menu tab, blue: color of menu tab, card-2: shadow, left-align: all elements on the left side, large: font size-->
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-ornage w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="petbookstemp.html" class="w3-bar-item w3-button w3-padding-large w3-blue w3-hover-orange">Home</a>
+          <a href="petabout.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">About us</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button w3-hover-orange" title="More">Profiles  <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="petprofiles.html" class="w3-bar-item w3-button w3-hover-orange">Template</a>
+            <a href="profiledemos.html" class="w3-bar-item w3-button w3-hover-orange">Demo</a>
+          </div>
+        </div>
+          <a href="LocalShelter.html" class="w3-bar-item w3-button w3-hide-small w3-white w3-padding-large w3-hover-orange">Local Shelters</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+       <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+          <a href="#" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+          <a href="#" class="w3-bar-item w3-button w3-padding-large">Profiles</a>
+          <a href="#" class="w3-bar-item w3-button w3-padding-large">Local Shelters</a>
+        </div>
+      </div>
+
+      <!-- Header -->
+      <header class="w3-container w3-theme w3-padding w3-margin-top w3-blue" id="myHeader">
+        <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
+        <div class="w3-center w3-animate-bottom">
+        <h4>Adopt in Person!</h4>
+        <h1 class="w3-xxxlarge w3-animate-bottom"><b>Local Shelters<b></h1>
+          <img class="w3-hover-opacity w3-margin-right" src="sittingBird.jpg" style="width:3%" alt="sitting bird">
+        </div>
+      </header>
+
+    <!-- About Section -->
+    <div class="w3-container" style="padding:128px 16px" id="about">
+      <h3 class="w3-center w3-text-blue">NEARBY LOCATIONS</h3>
+      <p class="w3-center w3-large">Local animal shelters located in the Bay Area</p>
+      <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="OAS.jpg" style="width:250px;margin-bottom:10px;" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="http://www.oaklandanimalservices.org/"> Oakland Animal Services</a></p>
+          <p class="w3-blue">1101 29th Avenue,<br> Oakland, CA 94601 <br> Fax: 510.535.5601 <br>Phone: 510.535.5602</p>
+        </div>
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="HA.jpg" style="width:210px;margin-bottom:20px" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="http://www.haywardanimals.org/">Hayward Animals</a></p>
+          <p class="w3-blue">16 Barnes Court (Near Soto & Jackson)<br>Hayward, CA 94544 <br>Phone: 510.293.7200</p>
+        </div>
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="SFACC.jpg" style="width:200px;margin-bottom:20px" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="http://www.sfanimalcare.org/">San Francisco <br> Animal Care & Control</a></p>
+          <p class="w3-blue">1200 15th Street<br>San Francisco, CA 94103<br>Phone: 415.554.6364 (General Information)<br>415.554.9400 (Emergency Dispatch—use only for animals in distress)</p>
+        </div>
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="EBSPCA.jpg" style="width:280px;margin-bottom:20px" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="http://eastbayspca.org/">East Bay SPCA </a></p>
+          <p class="w3-blue">4651 Gleason Drive<br> Dublin, CA 94568<br>Phone: 925.479.9670</p>
+        </div>
+      </div>
+      <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="SFSPCA.jpg" style="width:250px;margin-bottom:10px;" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="https://www.sfspca.org/"> SF SPCA</a></p>
+          <p class="w3-blue">201 Alabama Street<br>San Francisco, CA 94103<br>Phone: 415.554.3000</p>
+        </div>
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="SJA.jpg" style="width:210px;margin-bottom:20px" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="http://www.sanjoseanimals.com/">San Jose Animals</a></p>
+          <p class="w3-blue">200 E. Santa Clara St.<br>San José, CA 95113<br>Phone: 408.535.3500</p>
+        </div>
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="TCAS.jpg" style="width:200px;margin-bottom:20px" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="http://www.fremontpolice.org/index.aspx?NID=332">Fremont Police <br> Tri-City Animal Shelter</a></p>
+          <p class="w3-blue">1950 Stevenson Blvd <br> Fremont, CA 94538</p>
+        </div>
+        <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="BH.jpg" style="width:150px;margin-bottom:20px" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="https://www.cityofberkeley.info/animalservices/">City of Berkeley<br>Animal Shelter</a></p>
+          <p class="w3-blue">1 Bolivar Drive<br> Berkeley, CA 94710<br>Phone: 510.981.6600 <br> TDD: 510.981.6903<br> FAX: 510.981.7099</p>
+        </div>
+      </div>
+      <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <!-- <div class="w3-quarter">
+          <img class="w3-margin-bottom w3-jumbo w3-center" src="BH.jpg" style="width:200px;margin-bottom:10px;" alt="Joan">
+          <p class="w3-large w3-text-orange"><a href ="https://berkeleyhumane.org/"> Berkeley Humane</a></p>
+          <p class="w3-blue"> 2700 Ninth Street <br>Berkeley, CA 94710 <br>sPhone: 510.845.7735 </p>
+        </div> -->
+      </div>
+    </div>
+
+
+
+      <!-- Footer -->
+      <footer class="w3-center w3-blue w3-padding-64">
+        <a href="#myHeader" class="w3-button w3-white w3-hover-orange"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <p>Made By Girls at <a href="https://girlswhocode.com/" target="_blank"> Girls Who Code.</a></p>
+      </footer>
+      <!-- Add Google Maps -->
+      <script>
+      function myMap()
+      {
+        myCenter=new google.maps.LatLng(41.878114, -87.629798);
+        var mapOptions= {
+          center:myCenter,
+          zoom:12, scrollwheel: false, draggable: false,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+        var marker = new google.maps.Marker({
+          position: myCenter,
+        });
+        marker.setMap(map);
+      }
+
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+
+      // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+        </script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+        <!--
+        To use this code on your website, get a free API key from Google.
+        Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+        -->
+
+    </body>
+  </html>

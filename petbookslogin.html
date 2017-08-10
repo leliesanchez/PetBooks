@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+  <html>
+  <title>PetBooks Login</title>
+  <meta charset="UTF-8"> <!-- Brings in keyboard characters, even ones you can't see. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="icon"
+       type="image/jpg"
+       href="petbookslogo.jpg" />
+    <style>
+      form {
+          border: 250px solid orange /* Puts a gray border around the login box*/
+      }
+
+      input[type=text], input[type=password] { /*The two inputs that the user will put in*/
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+          font-family:Lato
+      }
+
+      button { /*The login button*/
+          background-color: #3c82f2;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          font-family:Lato
+      }
+
+      button:hover { /* Turns the opacity of the button when hovered over*/
+          opacity: 0.8;
+      }
+
+      .cancelbtn { /* Cancel button functions*/
+          width: auto;
+          padding: 10px 18px;
+          background-color:#3c82f2 ;
+          font-family: Lato
+      }
+
+    .imgcontainer { /*If the image doesn't show up, this makes a box around the alt and puts it in the center.*/
+          text-align: center;
+          margin: 24px 0 12px 0;
+      }
+
+      img.avatar {
+          width: 40%;
+
+      }
+
+      .container {
+          padding: 16px;
+      }
+
+      span.psw {
+          float: right;
+          padding-top: 16px;
+           font-family:Lato
+      }
+
+      span.signup {
+        float: right;
+        padding-top: 7px;
+        font-family: Lato
+    }
+
+      label{font-family:Lato}
+
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+          span.psw {
+             display: block;
+             float: none;
+
+          }
+          .cancelbtn {
+             width: 100%;
+          }
+
+      }
+    </style>
+    <body>
+
+      <h2 style="font-family:Lato;">Login Form</h2>
+
+        <form action="/action_page.php">
+        <div class="imgcontainer">
+          <img src="petbookslogo.jpg" alt="Our Logo" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Username</b></label>
+          <input style="font-family:Lato;"type="text" placeholder="Enter Username" name="uname" required>
+
+          <label><b>Password</b></label>
+          <input style="font-family:Lato;" type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <input id ="checkbox" type="checkbox" checked="checked" /> <label for = "checkbox">Remember me</label>
+          <span class= "signup"> Not on PetBooks? <a href= petSignup.html>Sign up.</a></span>
+
+        </div>
+
+        <div class="container" style="background-color:orange">
+          <a href = petbookstemp.html><button type="button" class="cancelbtn">Cancel</button></a>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+
+    </body>
+  </html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+  <html>
+    <title>Pet Profiles</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+      </style>
+      <body class="w3-light-grey">
+        <div class="w3-top"> <!-- This is the top section of the website -->
+          <div class="w3-bar w3-blue w3-card-2 w3-left-align w3-large"> <!-- bar: shape of menu tab, blue: color of menu tab, card-2: shadow, left-align: all elements on the left side, large: font size-->
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-orange w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="petbookstemp.html" class="w3-bar-item w3-button w3-padding-large w3-hover-orange">Home</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">About us</a>
+            <a href="petprofiles.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-hover-orange">Profiles</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">Local Shelters</a>
+          </div>
+
+          <!-- Navbar on small screens -->
+         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Profiles</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Local Shelters</a>
+          </div>
+        </div>
+
+      <!-- Page Container -->
+      <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+
+          <!-- Left Column -->
+          <div class="w3-third">
+
+            <div class="w3-white w3-text-orange w3-card-4 w3-margin-top">
+              <div class="w3-display-container">
+                <img class="w3-margin-top" src="pet_silhouette.jpg" style="width:44%" alt="Avatar">
+                <div class="w3-display-bottomleft w3-container w3-text-orange">
+                   <h2><i class="fa fa-bookmark-o aria-hidden='true' w3-margin-right"></i>Name of Animal</h2>
+                </div>
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-large"><b><i class="fa fa-paw aria-hidden='true' w3-margin-right w3-text-blue"></i>ADOPT!</b></h5>
+                <hr>
+                <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Owner</p>
+                <p><i class="fa fa-address-card aria-hidden='true' w3-margin-right w3-large w3-text-blue"></i>Address</p>
+                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>ex@mail.com</p>
+                <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>1224435534</p>
+
+
+                <div class="w3-light-grey w3-round-xlarge w3-small"></div>
+
+                <div class="w3-light-grey w3-round-xlarge w3-small"></div>
+                <br>
+                <div class="w3-light-grey w3-round-xlarge"></div>
+
+                <div class="w3-light-grey w3-round-xlarge"></div>
+
+                <div class="w3-light-grey w3-round-xlarge"></div>
+                <br>
+              </div>
+            </div><br>
+
+          <!--End Left Column-->
+        </div>
+
+          <!-- Right Column -->
+          <div class="w3-twothird">
+
+            <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-top">
+              <h2 class="w3-text-blue w3-padding-16"><i class="fa fa-book aria-hidden='true' w3-margin-right w3-xxlarge w3-text-blue w3-margin-top"></i>Info</h2>
+              <div class="w3-container">
+                <h5 class="w3-bold w3-text-orange"><b>AGE: X years old</b></h5>
+                <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6> -->
+                <h5 class="w3-bold w3-text-orange"><b>BREED: XX</b></h5>
+                <hr>
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-bold w3-xlarge w3-text-blue"><b>Bio</b></h5>
+              <!--  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6> -->
+                <p class="w3-text-orange">(* Bio of what the animal is like, what their tendencies are, what type of things they like to do, etc.*)</p>
+                <hr>
+              </div>
+              <div class="w3-container">
+                <h5 class="w3-bold w3-xlarge w3-text-blue"><b>Location</b></h5>
+                <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6> -->
+                <p class="w3-text-orange">(*Name of animal*) is at the (*Name of shelter*) Shelter. </p><br>
+              </div>
+            </div>
+
+            <div class="w3-container w3-card-2 w3-white">
+            <div class="w3-content w3-container w3-padding-64" id="portfolio">
+              <h2 class="w3-left-algin w3-text-blue">Photos</h2>
+           <p class="w3-center w3-text-orange"><em>Here are where photos of the pet will go.</em></p>
+
+              <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+              <div class="w3-row-padding w3-center">
+                <div class="w3-col m6">
+                  <img src="profile1.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dogs playing">
+                </div>
+
+                <div class="w3-col m6">
+                  <img src="profile2.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dogs playing">
+                </div>
+              </div>
+
+              <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m6">
+                  <img src="profile3.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dogs sitting">
+                </div>
+
+                <div class="w3-col m6">
+                  <img src="profile4.jpg" style="width:60%" onclick="onClick(this)" class="w3-hover-opacity w3-margin" alt="Dog looking up">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End Right Column -->
+          </div>
+
+        <!-- End Grid -->
+        </div>
+
+        <!-- End Page Container -->
+      </div>
+
+      <footer class="w3-container w3-blue w3-center w3-margin-top">
+        <p>Find me on social media.</p>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </footer>
+
+    </body>
+  </html>

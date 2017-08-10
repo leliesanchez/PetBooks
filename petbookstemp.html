@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+  <html>
+      <title>PetBooks</title>
+          <meta charset="UTF-8"> <!-- Brings in keyboard characters, even ones you can't see. -->
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--Brings in our template. -->
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> <!-- Brings in the font family "Lato". -->
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"> <!-- Brings in the font family "Monserrat". -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Brings in the font awesome icons.-->
+          <link rel="icon"
+               type="image/jpg"
+               href="petbookslogo.jpg" />
+        <style>
+          body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+          .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+          .fa-paw,.fa-heart {font-size:200px}
+        </style>
+        <body>
+        <!-- Lines 11 and 12 sets the heading and the body in that specific font. -->
+        <!-- Line 13 brings in the font awesome icons into the code. -->
+
+          <!-- Navbar -->
+          <div class="w3-top w3-animate-top"> <!-- This is the top section of the website -->
+            <div class="w3-bar w3-blue w3-card-2 w3-left-align w3-large"> <!-- bar: shape of menu tab, blue: color of menu tab, card-2: shadow, left-align: all elements on the left side, large: font size-->
+              <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-orange w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="petbookstemp.html" class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-orange">Home</a>
+              <a href="petabout.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">About us</a>
+              <div class="w3-dropdown-hover w3-hide-small">
+               <button class="w3-padding-large w3-button w3-hover-orange" title="More">Profiles  <i class="fa fa-caret-down"></i></button>
+               <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                 <a href="petprofiles.html" class="w3-bar-item w3-button w3-hover-orange">Template</a>
+                 <a href="profiledemos.html" class="w3-bar-item w3-button w3-hover-orange">Demo</a>
+               </div>
+             </div>
+              <a href="localshelters.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-orange">Local Shelters</a>
+            </div>
+
+            <!-- Navbar on small screens -->
+           <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+              <a href="#" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+              <a href="#" class="w3-bar-item w3-button w3-padding-large">Profiles</a>
+              <a href="#" class="w3-bar-item w3-button w3-padding-large">Local Shelters</a>
+            </div>
+          </div>
+
+        <!-- Header -->
+        <header class="w3-container w3-blue w3-center w3-animate-bottom" style="padding:128px 16px">
+            <h1 class="w3-margin w3-jumbo" style="font-color:orange">PetBooks</h1>
+            <p class="w3-xlarge">Hello! Welcome to our website.<br>Feel free to browse around, checking out the different profiles for potential pets.<br>You can learn more about what our goal is by clicking the About Us tab, and look at profiles by clicking on Profiles.<br>
+          </p>
+          <a href=petbookslogin.html><button class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-hover-orange">Login</button></a>
+          <div class="w3-display-bottomleft w3-large" style="padding:30px 90px">
+             <img class="w3-hover-opacity" src="sittingDog.jpg" style="width:75%" alt="sitting dog">
+           </div>
+           <div class="w3-display-bottomright w3-medium" style="padding:30px 0px">
+             <img class="w3-hover-opacity w3-margin-bottom" src="sittingCat.jpg" style="width:21%" alt="sitting cat">
+           </div>
+           <div class="w3-display-topright w3-medium" style="padding:122px 10px">
+             <img class="w3-hover-opacity w3-margin-right" src="sittingBird.jpg" style="width:6%" alt="sitting bird">
+           </div>
+        </header>
+
+          <!-- First Grid -->
+          <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content">
+              <div class="w3-twothird">
+                <h1 class="w3-text-blue">Pet Statistics</h1>
+                <h5 class="w3-padding-32 w3-text-gray">6.5 million companion animals enter animal shelters every year. <br>
+                             Approximately 3.3 million are dogs and 3.2 million are cats. <br>
+                             Approximately 1.5 million shelter animals are euthanized (670,000 dogs and 860,000 cats). <br>
+                             Only 1 out of every 10 dogs born will find a premanent home. <br>
+                             Overpopulation leads to millions of "excess" animals to be killed anually.<br></h5>
+                             <hr>
+                           <i><b>  Sources:</i></b> <br>
+                             <a href ="https://www.dosomething.org/facts/11-facts-about-animal-homelessness"> dosomething.org </a> <br>
+                             <a href = "https://www.aspca.org/animal-homelessness/shelter-intake-and-surrender/pet-statistics"> ASPCA (America Society for the Prevention of Cruelty to Society) </a>
+                           </p>
+                     </div>
+
+              <div class="w3-third w3-center">
+                <i class="fa fa-paw w3-padding-64 w3-text-orange"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Grid -->
+          <div class="w3-row-padding w3-white w3-container">
+            <div class="w3-content">
+              <div class="w3-third w3-center">
+                <img src= "petbookslogo.jpg" style="width:280px;height:250px;margin-right:200px;margin-top:150px;" >
+              </div>
+
+              <div class="w3-twothird w3-padding-64">
+                <h1 class="w3-text-blue">Take a look at a Demo!</h1>
+                <h5 class="w3-padding-32 w3-text-gray">We decided to make a few demos on how our page would look like if shelters and people made profiles for their animals.</h5>
+
+                <p class="w3-text-grey">We chose two animals from our locals shelters and made profiles for them. We also included more animals on the sides, as if they were other profiles. These animals actually exist, so if you'd like to actually adopt them, you should check out their shelter websites.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-blue w3-center w3-padding-64">
+              <h1 class="w3-margin w3-xlarge">Quote of the day: Adopt 'till you drop.</h1>
+              <img class="w3-hover-opacity w3-margin-left" src="sittingGP.jpg" style="width:6%" alt="sitting guinea pig">
+              <img class="w3-hover-opacity w3-margin-left" src="sittingBunny.jpg" style="width:6%" alt="sitting bunny">
+          </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+          <!-- <div class="w3-xlarge w3-padding-32">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+         </div> -->
+         <p>Made By Girls at <a href="https://girlswhocode.com/" target="_blank"> Girls Who Code.</a></p>
+        </footer>
+
+          <script>
+          // Used to toggle the menu on small screens when clicking on the menu button
+          function myFunction() {
+              var x = document.getElementById("navDemo");
+              if (x.className.indexOf("w3-show") == -1) {
+                  x.className += " w3-show";
+              } else {
+                  x.className = x.className.replace(" w3-show", "");
+              }
+          }
+        </script>
+
+    </body>
+  </html>
